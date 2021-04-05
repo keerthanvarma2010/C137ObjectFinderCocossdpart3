@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+#Header {
+    width: 97.5%;
+    font-size: 35px;
+}
+
+.Note {
+    font-size: 15px;
+    color: black;
+}
+
+.Content {
+    color: black;
+}
+
+#ObjectInput {
+    width: 400px;
+}

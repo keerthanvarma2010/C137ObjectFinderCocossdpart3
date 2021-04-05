@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.6.1/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="main.js"></script>
+
+    <title>Object Finder Cocossd Part 1</title>
+</head>
+
+<body>
+
+    <h1 class="btn btn-info" id="Header">Object Finder
+        <br>
+        <br>
+        <p class="Note">You can type any item in the input and keep an item in front of the webcam. If the item in front
+            of the webcam is the same as the item you typed, it will inform you.</p>
+    </h1>
+
+    <br>
+    <br>
+
+    <div id="Content">
+        <label>Object Name</label>
+        <br>
+        <br>
+        <input id="ObjectInput">
+        <br>
+        <br>
+        <br>
+        <button id="StartButton" class="btn btn-success" onclick="Start()">Start</button>
+        <br>
+        <br>
+        <div id="StatusDetectedLabelDiv" class="btn btn-danger"></div>
+        <div id="ItemFoundLabelDiv" class="btn btn-warning"></div>
+        <br>
+        <br>
+        <br>
+
+    </div>
+</body>
+
+</html>
